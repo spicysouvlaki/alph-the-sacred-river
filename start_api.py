@@ -15,5 +15,5 @@ try:
         print("API already started")
 except requests.exceptions.ConnectionError:
     print("Starting the API")
-    cmd = ["/home/appuser/vevn/bin/uvicorn", "api:app"]
+    cmd = ["/home/appuser/venv/bin/uvicorn", "api:app"]
     subprocess.Popen(cmd, close_fds=True)
