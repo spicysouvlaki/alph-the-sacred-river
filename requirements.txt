@@ -22,4 +22,4 @@ tqdm==4.55.2
 
 fastapi==0.61.2
 uvicorn==0.12
-streamlit==0.81.1
+streamlit==0.81.0
